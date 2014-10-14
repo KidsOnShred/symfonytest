@@ -1,0 +1,15 @@
+tom_test_homepage:
+    path:     /signup/
+    defaults: { _controller: TomTestBundle:Default:index }
+
+tom_test_createfailed:
+    path:     /signup/{reason}
+    defaults: { _controller: TomTestBundle:Default:index }
+
+tom_test_myaccount:
+    path:     /myaccount/
+    defaults: { _controller: TomTestBundle:Default:myAccount }
+
+tom_test_logout:
+    path:     /logout/
+    defaults: { _controller: TomTestBundle:Default:logout }
